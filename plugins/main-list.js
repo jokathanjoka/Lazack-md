@@ -54,7 +54,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 
     case 'botmenu':
       lkr = `❀° ┄──•••───╮
-          𝘽𝙊𝙏 𝙈𝙀𝙉𝙐  
+     JOEL MD MENU  
    ╰───•••──┄ °❀     
    ┏━━━ʕ•㉨•ʔ━━━┓
    ⎪⌲👑 _${usedPrefix}gita_
@@ -74,7 +74,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
       break
     case 'ownermenu':
       lkr = `❀° ┄──•••───╮
-          𝙊𝙒𝙉𝙀𝙍 𝙈𝙀𝙉𝙐  
+      JOEL MD OWNER MENU
      ╰───•••──┄ °❀     
      ┏━━━ʕ•㉨•ʔ━━━┓
      ⎪⌲👑 _${usedPrefix}banchat_
@@ -93,7 +93,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
       break
     case 'groupmenu':
       lkr = `❀° ┄──•••───╮
-          𝙂𝙍𝙊𝙐𝙋 𝙈𝙀𝙉𝙐 
+      JOEL GROUP MENU
     ╰───•••──┄ °❀     
     ┏━━━ʕ•㉨•ʔ━━━┓
     ⎪⌲💎_${usedPrefix}kick *<@tag>*_
@@ -117,7 +117,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     case 'downloadermenu':
     case 'dlmenu':
       lkr = `❀° ┄──•••───╮
-          𝘿𝙇 𝙈𝙀𝙉𝙐 
+     JOEL DL MENU 
    ╰───•••──┄ °❀     
    ┏━━━ʕ•㉨•ʔ━━━┓
    ⎪⌲💎_${usedPrefix}play_
@@ -141,7 +141,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
       break
     case 'economymenu':
       lkr = `❀° ┄──•••───╮
-          𝙀𝘾𝙊𝙉𝙊𝙈𝙔 
+       JOEL ECONOMY MENU
    ╰───•••──┄ °❀     
    ┏━━━ʕ•㉨•ʔ━━━┓
    ⎪⌲👑 _${usedPrefix}claim/daily_
@@ -165,7 +165,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
       break
     case 'funmenu':
       lkr = `❀° ┄──•••───╮
-          𝙁𝙐𝙉 𝙈𝙀𝙉𝙐
+      JOEL FUNNY MENU 
     ╰───•••──┄ °❀     
     ┏━━━ʕ•㉨•ʔ━━━┓
     ⎪⌲👑 _${usedPrefix}character_
@@ -185,7 +185,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
       break
     case 'animemenu':
       lkr = `❀° ┄──•••───╮
-          𝐴𝑁𝐼𝑀𝐸 𝑀𝐸𝑁𝑈
+        JOEL ANIME MENU
     ╰───•••──┄ °❀     
     ┏━━━ʕ•㉨•ʔ━━━┓
     ⎪⌲👑 _${usedPrefix}waifu_
@@ -246,7 +246,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
       break
     case 'stickermenu':
       lkr = `❀° ┄──•••───╮
-          𝙎𝙏𝙄𝘾𝙆𝙀𝙍 𝙈𝙀𝙉𝙐
+        JOEL STICKER MENU
      ╰───•••──┄ °❀     
      ┏━━━ʕ•㉨•ʔ━━━┓
      ⎪⌲👑 _${usedPrefix}sticker_
@@ -267,7 +267,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
       break
     case 'toolmenu':
       lkr = `❀° ┄──•••───╮
-          𝙏𝙊𝙊𝙇𝙎 𝙈𝙀𝙉𝙐
+       JOEL TOOLS MENU
      ╰───•••──┄ °❀     
      ┏━━━ʕ•㉨•ʔ━━━┓
      ⎪⌲👑 _${usedPrefix}autosticker_
