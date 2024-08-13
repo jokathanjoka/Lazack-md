@@ -3,14 +3,14 @@ import { join } from 'path';
 import axios from 'axios'; 
 
 let handler = async function (m, { conn, __dirname }) {
-const githubRepoURL = 'https://github.com/Lazack28/Lazack-md';
+const githubRepoURL = 'https://github.com/joeljamestech/JOEL-MD';
   try {
 const [, username, repoName] = githubRepoURL.match(/github\.com\/([^/]+)\/([^/]+)/);
 const response = await axios.get(`https://api.github.com/repos/${username}/${repoName}`);
 if (response.status === 200) {
 const repoData = response.data;
 const formattedInfo = `
-🍪 𝐋𝐀𝐙𝐀𝐂𝐊-𝐌𝐃 🍪
+🍪 JOEL MD 🍪
 *A Fully Featured WhatsApp Bot Loaded with Features 🎊*
 𝖲𝖳𝖠𝖱✨ :: ${repoData.stargazers_count}
 𝖥𝖮𝖱𝖪 🍽️ :: ${repoData.forks_count}
@@ -25,7 +25,7 @@ effectively.
 
 *_DEPLOY NOW_*
 
-\`\`\`Enhance your WhatsApp experience with 𝐋𝐀𝐙𝐀𝐂𝐊-𝐌𝐃 ! 🍪\`\`\`
+\`\`\`Enhance your WhatsApp experience with JOEL MD ! 🍪\`\`\`
         `.trim();
         
       await conn.relayMessage(m.chat,  {
